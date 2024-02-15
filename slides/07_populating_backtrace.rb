@@ -21,7 +21,8 @@ set_backtrace(one)
 puts "one has a manually-set backtrace"
 puts one.backtrace.inspect
 
-
+# Example Thibaut mentioned of populating backtraces
+# https://github.com/patch-technology/patch/blob/main/app/subscribers/active_record_instantiation_subscriber.rb#L26-L27
 
 
 
